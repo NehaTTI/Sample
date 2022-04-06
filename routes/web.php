@@ -25,4 +25,4 @@ Route::any('/userchathistory','App\Http\Controllers\FirebaseController@userchath
 Route::any('/storePopulateCustomers','App\Http\Controllers\CommonController@storePopulateCustomers');
 Route::any('/storePopulateBrokers','App\Http\Controllers\CommonController@storePopulateBrokers');
 Route::any('/storepopulateproducts','App\Http\Controllers\CommonController@storePopulateProducts');
-Route::any('/storePopulateSaleName','App\Http\Controllers\CommonController@storePopulateSaleName');
+// Route::any('/storePopulateSaleName','App\Http\Controllers\CommonController@storePopulateSaleName');
